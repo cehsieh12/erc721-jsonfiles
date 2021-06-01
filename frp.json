@@ -1,60 +1,27 @@
 {
     "description": "FundraisingPlan", 
-    "external_url": "https://openseacreatures.io/3", 
     "image": "./images/product1.jpg", 
     "name": "Cool beverage",
-    "attributes": [
-        {
-            "trait_type":"Title",
-            "value":"Cool beverage"
-        },
-        {
-            "trait_type":"Content",
-            "value":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, exercitationem."
-        },
-        {
-            "trait_type":"FundraisingPlanStartDate",
-            "value":"2021/06/30"
-        },
-        {
-            "trait_type":"FundraisingPlanEndDate",
-            "value":"2021/08/30"
-        },
-        {
-            "trait_type":"SuccessThreshold",
-            "value":500000
-        },
-        {
-            "trait_type":"Target",
-            "value":800000
-        },
-        {
-            "trait_type":"OfficialPlanStartDate",
-            "value":"2021/09/01"
-        },
-        {
-            "trait_type":"OfficialPlanEndDate",
-            "value":"2021/12/01"
-        },
-        {
-            "trait_type":"LiquidatedDay",
-            "value":"2021/11/01"
-        },
-        {
-            "trait_type":"LiquidatedTarget",
-            "value":5000000
-        },
-        {
-            "trait_type":"ProfitSharingRatio",
-            "value":5000000
-        },
-        {
-            "trait_type":"LiquidatedTarget",
-            "value":5000000
-        },
-        {
-            "trait_type":"LiquidatedTarget",
-            "value":5000000
-        }
-    ]
+    "title":"Cool beverage",
+    "content":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, exercitationem.",
+    "type":"food",
+    "fundraisingPlanDuration":{
+        "startDate":"2021/06/30",
+        "endDate":"2021/08/30"
+    },
+    "successThreshold":500000,
+    "target":800000,
+    "officialPlanDuration":{
+        "startDate":"2021/09/01",
+        "endDate":"2021/12/01"
+    },
+    "liquidation":{
+        "date":"2021/11/01",
+        "target":500000
+    },
+    "profitSharingRatio":{
+        "investor":0.5,
+        "initiator":0.3,
+        "platform":0.2
+    }
 }
