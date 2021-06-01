@@ -23,5 +23,28 @@
         "investor":0.5,
         "initiator":0.3,
         "platform":0.2
-    }
+    },
+    "products":[
+        {
+            "id":"1",
+            "name":"juice",
+            "quantity":"300",
+            "price":100,
+            "investmentAmount":20000
+        },
+        {
+            "id":"2",
+            "name":"coffee",
+            "quantity":"500",
+            "price":150,
+            "investmentAmount":50000
+        },
+        {
+            "id":"3",
+            "name":"Soda",
+            "quantity":"400",
+            "price":120,
+            "investmentAmount":3000
+        }
+    ]
 }
